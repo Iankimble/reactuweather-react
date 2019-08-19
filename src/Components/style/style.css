@@ -1,0 +1,140 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+    background-image: url('./stockweatherimg.jpg');
+    margin: 0px;
+}
+
+#mainContainer{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:550px;
+    margin: 0px;
+    background-size: cover;
+}
+
+#header{
+    display: inline;
+    padding: 10px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+#formOne{
+    background-color: black;
+    height: 55px;
+    line-height: 50px;
+    color: white;
+}
+
+.form{
+    float: right;
+    padding-right: 100px;
+
+}
+
+.formFeild{
+    margin: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.submitBtn{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#submit{
+    display: inline-block;
+    align-content: center;
+}
+
+#weatherData{
+    background-color:black;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 55px;
+    width: 250px;
+    height:250px;
+    margin-top: 150px;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #mainContainer{
+        height: 475px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height:535px;
+        width: 100%;
+    }
+        
+    #header{
+        display: inline;
+        text-align: center;
+        padding: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+        
+    #formOne{
+        background-color: black;
+        height: 105px;
+        line-height: 30px;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+        
+    .form{
+        text-align: center;  
+        float: none;
+        padding-right: 0px;
+        display: inline-block;
+    }
+ 
+    #submit{
+        display: block;
+        align-content: center;
+    }
+
+    #click{
+        width: 174px;
+        height: 25px;
+    }
+
+    #weatherData{
+        background-color:black;
+        border-radius: 20px;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        margin: 10%;
+        width: 200px;
+        height:165px;
+        margin-top: 355px;
+        font-size: 10px;
+    }
+        
+    #footer{
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+}
