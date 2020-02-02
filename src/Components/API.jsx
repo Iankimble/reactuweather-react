@@ -97,7 +97,7 @@ class Api extends React.Component {
       const giphyKey = process.env.REACT_APP_GIPHY_KEY;
       let gifSearchword = gifTerm;
       let giphyURL =
-        "http://api.giphy.com/v1/gifs/search?q=" +
+        "https://api.giphy.com/v1/gifs/search?q=" +
         gifSearchword +
         "&api_key=" +
         giphyKey;
