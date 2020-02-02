@@ -2,7 +2,7 @@
   "name": "black-u-weather",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://iankimble.github.io/reactuweather-react/",
+  "homepage": "http://iankimble.github.io/reactuweather-react/",
   "dependencies": {
     "axios": "^0.19.0",
     "dotenv": "^8.0.0",
@@ -20,7 +20,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
